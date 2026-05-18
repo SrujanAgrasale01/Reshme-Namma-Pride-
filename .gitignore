@@ -1,0 +1,24 @@
+# Dependencies
+/node_modules
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Environment variables — NEVER commit these
+.env.local
+.env*.local
+
+# Debug
+npm-debug.log*
+
+# TypeScript
+tsconfig.tsbuildinfo
+
+# Misc
+.DS_Store
+*.pem
+.vercel
